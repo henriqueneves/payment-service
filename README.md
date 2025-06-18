@@ -1,7 +1,7 @@
 # 📦 Payment Service – Study Project
 
-> **Purpose:** A learning‐oriented Kotlin backend that calculates delivery–driver payouts.  
-> **Pattern:** Hexagonal Architecture (Ports & Adapters).
+**Purpose:** A learning‐oriented Kotlin backend that calculates delivery–driver payouts.  
+**Pattern:** Hexagonal Architecture (Ports & Adapters).
 
 ---
 
