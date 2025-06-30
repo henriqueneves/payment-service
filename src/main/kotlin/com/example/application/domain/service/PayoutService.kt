@@ -8,7 +8,7 @@ import com.example.application.domain.valueobject.Constants
 import com.example.application.domain.valueobject.DeliverySequence
 
 class PayoutService(
-    val deliveryRepository: DeliveryRepository
+    private val deliveryRepository: DeliveryRepository
 ) : PayoutUseCase {
 
     override fun calculate(driverId: Int): Money {

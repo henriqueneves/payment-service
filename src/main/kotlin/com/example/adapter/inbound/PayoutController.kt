@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/payout")
 class PayoutController(
-    val payoutUseCase: PayoutUseCase
+    private val payoutUseCase: PayoutUseCase
 ) {
 
     @PostMapping
